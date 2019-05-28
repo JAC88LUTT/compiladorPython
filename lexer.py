@@ -6,15 +6,15 @@ class Lexer():
 
 	def _add_tokens(self):
 		#Print
-		self.lexer.add('PRINT',r'print')
+		self.lexer.add('PRINT',r'mostrarenpantalla')
 		#Parentesis
 		self.lexer.add('OPEN_PAREN',r'\(')
 		self.lexer.add('CLOSE_PAREN',r'\)')
 		#Semi Colon
 		self.lexer.add('SEMI_COLON',r'\;')
 		#Operators
-		self.lexer.add('SUM',r'\+')
-		self.lexer.add('SUB',r'\-')
+		self.lexer.add('SUM',r'suma')
+		self.lexer.add('SUB',r'resta')
 		#Number
 		self.lexer.add('NUMBER',r'\d+')
 		# Ignore spaces
